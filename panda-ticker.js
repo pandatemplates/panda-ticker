@@ -11,8 +11,8 @@
             new class {
                 constructor(t) {
                     this.ticker = t,
-					this.active = 0,
-					this.tickerInit()
+	            this.active = 0,
+		    this.tickerInit()
                 }
                 tickerActive(t) {
                     this.active = t,
